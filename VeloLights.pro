@@ -15,10 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     wheel.cpp \
-    diode.cpp
+    diode.cpp \
+    diodeimpression.cpp \
+    diodestick.cpp \
+    dispatcher.cpp
 
 HEADERS  += mainwindow.h \
     wheel.h \
-    diode.h
+    diode.h \
+    diodeimpression.h \
+    diodestick.h \
+    dispatcher.h
 
 FORMS    += mainwindow.ui
